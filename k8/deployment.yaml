@@ -13,7 +13,7 @@ spec:
         app: my-poc-app
     spec:
       containers:
-      - name: my-poc/app
+      - name: my-poc-app
         image: jayantvats/webapp:latest
         ports:
         - containerPort: 80
